@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ztf.wuhua.library.calendar.MonthView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendar_month_topmargin"
+            android:layout_marginBottom="@dimen/calendar_month_title_bottommargin"
+            android:gravity="center_horizontal"
+            style="@style/CalendarTitle"/>
+
+    <com.ztf.wuhua.library.calendar.CalendarGridView
+            android:id="@+id/calendar_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.ztf.wuhua.library.calendar.CalendarRowView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/calendar_day_headers_paddingbottom">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      style="@style/CalendarCell.DayHeader"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      style="@style/CalendarCell.DayHeader"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      style="@style/CalendarCell.DayHeader"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      style="@style/CalendarCell.DayHeader"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      style="@style/CalendarCell.DayHeader"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      style="@style/CalendarCell.DayHeader"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      style="@style/CalendarCell.DayHeader"/>
+        </com.ztf.wuhua.library.calendar.CalendarRowView>
+
+
+    </com.ztf.wuhua.library.calendar.CalendarGridView>
+</com.ztf.wuhua.library.calendar.MonthView>

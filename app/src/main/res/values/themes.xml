@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ZhiHu.Light" parent="Theme.AppCompat.Light">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="searchViewStyle">@style/Theme.ZhiHu.SearchViewStyle</item>
+    </style>
+    <style name="Theme.ZhiHu.Light.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="popupTheme">@style/Widget.AppCompat.Light.PopupMenu.Overflow</item>
+    </style>
+    <style name="Theme.ZhiHu.SearchViewStyle" parent="Base.Widget.AppCompat.SearchView">
+        <item name="closeIcon">@drawable/noimage</item>
+    </style>
+    <style name="Theme.ZhiHu.ActionBarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+</resources>
